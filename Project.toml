@@ -1,6 +1,6 @@
 name = "SparseRationalLearning"
 uuid = "38edcbe5-9bfb-4d27-9b01-8f1fb2a70f4c"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["rochant"]
 
 [deps]
