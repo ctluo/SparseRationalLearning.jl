@@ -1,10 +1,10 @@
 # SparseRationalLearning
 
-一个用于稀疏有理函数回归学习的 Julia 包。
+一个用于稀疏有理函数学习的 Julia 包。
 
 ## 简介
 
-本包实现了从数据中学习有理函数表达式 `P(x)/Q(x)` 的算法，其中 `P` 和 `Q` 是多项式。通过稀疏性约束，使得学习到的表达式尽可能简洁、可解释。
+本包实现了两种从数据中学习有理函数表达式 `P(x)/Q(x)` 的算法，其中 `P` 和 `Q` 是多项式。通过稀疏性约束，使得学习到的表达式尽可能简洁、可解释。
 
 ## 安装
 
@@ -26,7 +26,7 @@ Pkg.instantiate()
 using SparseRationalLearning
 
 # 准备数据
-X = rand(100, 2) .* 5.0# 100 个样本，2 个特征
+X = rand(100, 2) .* 5.0 # 100 个样本，2 个特征
 y = (1.5 .* X[:,1] .* X[:,2] .+ 0.8 .* X[:,1].^2) ./ (1.0 .+ 0.2 .* X[:,2].^2)
 
 # 使用 L1 方法训练 (快速)
@@ -79,7 +79,7 @@ println("R² = $r2")
 | 函数 | 描述 |
 |------|------|
 | `sparse_rational_expression(a, b, labels; threshold)` | 生成有理函数表达式字符串 |
-| `calculate_r2(X, y_true, a, b, degree)` | 计算 R² 决定系数 |
+| `calculate_r2(X, y_true, a, b, degree)` | 计算决定系数R²  |
 | `coefficients_threshold(a, b; threshold)` | 截断小系数为 0 |
 
 ## 算法对比
