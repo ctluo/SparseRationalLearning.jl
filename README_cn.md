@@ -100,7 +100,7 @@ Pkg.test()
 
 ## 依赖
 
-- Julia >= 1.11
+- Julia >= 1.12
 - Convex.jl - 凸优化建模
 - HiGHS.jl - MIP 求解器
 - SCS.jl - 锥规划求解器
