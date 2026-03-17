@@ -101,7 +101,7 @@ Pkg.test()
 
 ## Dependencies
 
-- Julia >= 1.11
+- Julia >= 1.12
 - Convex.jl - Convex optimization modeling
 - HiGHS.jl - Mixed-integer programming (MIP) solver
 - SCS.jl - Conic optimization solver
