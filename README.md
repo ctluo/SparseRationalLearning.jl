@@ -100,7 +100,6 @@ Pkg.test()
 ```
 
 ## Dependencies
-
 - Julia >= 1.12
 - Convex.jl - Convex optimization modeling
 - HiGHS.jl - Mixed-integer programming (MIP) solver
@@ -108,10 +107,23 @@ Pkg.test()
 - Combinatorics.jl - Combinatorial utilities
 
 ## License
-
 MIT License
 
+## Citation
+
+If you find this code or our methodology useful in your research, please consider citing our paper:
+
+```bibtex
+@article{li2026SpareRational,
+  title={Sparse Rational Learning for Interpretable Aerodynamic Surrogate Modeling},
+  author={Li, Jing and Luo, Changtong},
+  journal={TBD},
+  year={2026}
+}
+```
+
 ---
+
 Co-author: [@lijing-creator](https://github.com/lijing-creator)
 
 [中文文档](README_cn.md)
