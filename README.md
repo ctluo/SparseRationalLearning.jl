@@ -112,5 +112,6 @@ Pkg.test()
 MIT License
 
 ---
+Co-author: [@lijing-creator](https://github.com/lijing-creator)
 
 [中文文档](README_cn.md)
